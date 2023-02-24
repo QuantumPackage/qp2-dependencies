@@ -25,10 +25,9 @@ https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
 ## OCaml, OPAM and OCaml libraries
 Packages were bundled using opam-bundled with the following command:
 ```
-./opam-bundle --opam=2.0.8 --ocaml=4.11.1 --self ocaml cryptokit zmq sexplib ppx_sexp_conv ppx_deriving getopt ocamlbuild
+./opam-bundle --opam=2.0.8 --ocaml=4.11.1 --self ocaml zmq sexplib ppx_sexp_conv ppx_deriving getopt ocamlbuild
 ```
 - OCaml (LGPLv2.1)
-- cryptokit (GPLv2)
 - zmq (MIT)
 - sexplib (MIT)
 - ppx_sexp_conv (MIT)
