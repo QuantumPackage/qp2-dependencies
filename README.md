@@ -3,6 +3,9 @@
 Dependencies for the installation of Quantum Package. These files are not
 necessarily the latest versions, but they have been well tested with QP.
 
+When you install QP, we assume that you were successful in the installation of the dependencies, and this is where the support of QP starts.
+So the current repository exists to help the users, but no support is provided.
+
 ## Bats
 https://github.com/bats-core/bats-core/archive/v1.1.0.tar.gz
 (MIT)
@@ -23,9 +26,9 @@ https://github.com/scemama/f77_zmq/archive/v4.2.5.tar.gz"
 https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
 
 ## OCaml, OPAM and OCaml libraries
-Packages were bundled using opam-bundled with the following command:
+Packages were bundled using [OpamPack][https://github.com/scemama/OpamPack] with the following command:
 ```
-./opam-bundle --opam=2.0.8 --ocaml=4.11.1 --self ocaml zmq sexplib ppx_sexp_conv ppx_deriving getopt ocamlbuild
+./OpamPack.sh ocaml.4.11.2 ocamlbuild zmq sexplib ppx_sexp_conv ppx_deriving getopt
 ```
 - OCaml (LGPLv2.1)
 - zmq (MIT)
