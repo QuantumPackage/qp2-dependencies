@@ -26,7 +26,7 @@ https://github.com/scemama/f77_zmq/archive/v4.2.5.tar.gz"
 https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
 
 ## OCaml, OPAM and OCaml libraries
-Packages were bundled using [OpamPack][https://github.com/scemama/OpamPack] with the following command:
+Packages were bundled using [OpamPack](https://github.com/scemama/OpamPack) with the following command:
 ```
 ./OpamPack.sh ocaml.4.11.2 ocamlbuild zmq sexplib ppx_sexp_conv ppx_deriving getopt
 ```
